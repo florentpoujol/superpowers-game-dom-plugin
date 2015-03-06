@@ -1,0 +1,31 @@
+{
+  "name": "superpowers-florentpoujol-dom-definitions-plugin",
+  "version": "0.1.0",
+  "description": "Integration of The DOM definitions to Superpowers, the extensible HTML5 2D+3D game engine.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/florentpoujol/superpowers-dom-definitions-plugin"
+  },
+  "author": {
+    "name": "Florent Poujol",
+    "email": "florent.poujol@gmail.com",
+    "url": "http://florentpoujol.fr"
+  },
+  "tags": [
+    "superpowers", 
+    "plugin",
+    "dom"
+  ],
+  "bugs": {
+    "url": "https://github.com/florentpoujol/superpowers-fTween-plugin/issues"
+  },
+  "scripts": {
+    "mklink": "mklink /j \"../../superpowers/plugins/florentpoujol/dom-definitions\" \"./\""
+  },
+  "maintainers": [
+    {
+      "name": "Florent Poujol",
+      "email": "florent.poujol@gmail.com"
+    }
+  ]
+}
