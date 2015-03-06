@@ -1,7 +1,12 @@
 
 # dom.d.ts: https://github.com/Microsoft/TypeScript/blob/master/src/lib/dom.generated.d.ts
 
-# this fix is needed because these definitions are absent from typescript's official lib.d.ts and are used in dom.d.ts.
+# This fix is needed because these definitions are absent from typescript's official lib.d.ts and are used in dom.d.ts.
+
+# 06 march 2015: these definitions can actually be found in :
+# https://github.com/Microsoft/TypeScript/blob/master/src/lib/extensions.d.ts
+# and also in
+# https://github.com/Microsoft/TypeScript/blob/master/src/lib/es6.d.ts
 fix = 
 """
 interface ArrayBufferView {}
