@@ -1,31 +1,26 @@
 {
-  "name": "superpowers-florentpoujol-dom-definitions-plugin",
+  "name": "sup-dom-plugin",
   "version": "0.1.0",
-  "description": "Integration of The DOM definitions to Superpowers, the extensible HTML5 2D+3D game engine.",
+  "description": "Define the DOM in Superpowers, the extensible HTML5 2D+3D game engine.",
+  "homepage": "https://github.com/florentpoujol/superpowers-dom-plugin",
   "repository": {
     "type": "git",
-    "url": "https://github.com/florentpoujol/superpowers-dom-definitions-plugin"
+    "url": "https://github.com/florentpoujol/superpowers-dom-plugin"
   },
-  "author": {
-    "name": "Florent Poujol",
-    "email": "florent.poujol@gmail.com",
-    "url": "http://florentpoujol.fr"
-  },
-  "tags": [
-    "superpowers", 
+  "author": "Florent Poujol <florent.poujol@gmail.com> (http://florentpoujol.fr)",
+  "keywords": [
+    "superpowers",
     "plugin",
     "dom"
   ],
   "bugs": {
-    "url": "https://github.com/florentpoujol/superpowers-fTween-plugin/issues"
+    "url": "https://github.com/florentpoujol/superpowers-dom-plugin/issues"
   },
   "scripts": {
-    "mklink": "mklink /j \"../../superpowers/plugins/florentpoujol/dom-definitions\" \"./\""
+    "mklink": "mklink /j \"../../superpowers/plugins/florentpoujol/dom\" \"./\""
   },
   "maintainers": [
-    {
-      "name": "Florent Poujol",
-      "email": "florent.poujol@gmail.com"
-    }
-  ]
+    "Florent Poujol <florent.poujol@gmail.com>"
+  ],
+  "license": "MIT"
 }
