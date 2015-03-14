@@ -10,19 +10,19 @@
 fix = 
 """
 interface ArrayBufferView {}
-declare var ArrayBufferView: {}
+declare var ArrayBufferView: {};
 
 interface ArrayBuffer {}
-declare var ArrayBuffer: {}
+declare var ArrayBuffer: {};
 
 interface Uint8Array {}
-declare var Uint8Array: {}
+declare var Uint8Array: {};
 
 interface Int32Array {}
-declare var Int32Array: {}
+declare var Int32Array: {};
 
 interface Float32Array {}
-declare var Float32Array: {}
+declare var Float32Array: {};
 """
 
 fs = require 'fs'
