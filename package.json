@@ -17,7 +17,8 @@
     "url": "https://github.com/florentpoujol/superpowers-dom-plugin/issues"
   },
   "scripts": {
-    "mklink": "mklink /j \"../../superpowers/plugins/florentpoujol/dom\" \"./\""
+    "linkdev": "mklink /j \"../../app/plugins/florentpoujol/dom\" \"./\"",
+    "linkrelease": "mklink /j \"../../../release/app/plugins/florentpoujol/dom\" \"./\""
   },
   "maintainers": [
     "Florent Poujol <florent.poujol@gmail.com>"
