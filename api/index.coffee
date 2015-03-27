@@ -26,6 +26,6 @@ declare var Float32Array: {};
 """
 
 fs = require 'fs'
-SupAPI.addPlugin 'typescript', 'dom', {
+SupAPI.registerPlugin 'typescript', 'dom', {
   defs: fs.readFileSync(__dirname + '/dom.d.ts', encoding: 'utf8') + fix
 }
