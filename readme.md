@@ -6,16 +6,13 @@ It gives access to `console`, `document`, etc... from your game code and allows 
 
 ## Installation
 
-[Download the latest release](https://github.com/florentpoujol/superpowers-dom-plugin/releases) then unzip it.
-
-Rename the folder if you want then move it inside `app/plugins/florentpoujol/`.
-
-Finally restart your server.
+[Download the latest release](https://github.com/florentpoujol/superpowers-dom-plugin/releases), unzip it, rename the folder to `dom`, move it inside `app/plugins/florentpoujol/` then restart your server.
 
 __Advanced:__
 
-The plugin is published as an npm package so you can get any version of it via `npm`:
+Get it via `npm`:
 
     npm install sup-dom-plugin
 
-Note that the name of the vendors in the `app/plugins/` folder actually don't matter, it can be `node_modules`.
+The name of the vendors or plugins in the `app/plugins/` folder don't matter.  
+So you can leave the plugin path as `node_modules/sup-dom-plugin`.
