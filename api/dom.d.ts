@@ -1,5 +1,33 @@
+// DOM plugin
+// https://github.com/florentpoujol/superpowers-dom-plugin
+// Gives acces to DOM objects like console or document from your game code and allows you to use DOM types (like HTMLElement).
+
+
+// Some interfaces that are used by IE's dom definition below
+// Can be found in:
+// https://github.com/Microsoft/TypeScript/blob/master/src/lib/extensions.d.ts
+// or
+// https://github.com/Microsoft/TypeScript/blob/master/src/lib/es6.d.ts
+
+interface ArrayBufferView {}
+declare var ArrayBufferView: {};
+
+interface ArrayBuffer {}
+declare var ArrayBuffer: {};
+
+interface Uint8Array {}
+declare var Uint8Array: {};
+
+interface Int32Array {}
+declare var Int32Array: {};
+
+interface Float32Array {}
+declare var Float32Array: {};
+
+
 /////////////////////////////
 /// IE DOM APIs
+/// from https://github.com/Microsoft/TypeScript/blob/master/src/lib/dom.generated.d.ts
 /////////////////////////////
 
 
