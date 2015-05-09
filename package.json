@@ -19,9 +19,7 @@
   },
   "scripts": {
     "linksrcdev": "mklink /j \"../../app/plugins/florentpoujol/dom\" \"./\"",
-    "linksrcrelease": "mklink /j \"../../../release/app/plugins/florentpoujol/dom\" \"./\"",
-    "linkprojdev": "mklink /j \"../../app/projects/dom\" \"./project/dom\"",
-    "linkprojrelease": "mklink /j \"../../../localprojects/dom\" \"./project/dom\""
+    "linksrcrelease": "mklink /j \"../../../release/app/plugins/florentpoujol/dom\" \"./\""
   },
   "maintainers": [
     "Florent Poujol <florent.poujol@gmail.com>"
