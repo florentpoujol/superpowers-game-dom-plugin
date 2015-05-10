@@ -1,14 +1,14 @@
-var gulp = require('gulp');
+var gulp = require("gulp");
 var tasks = [];
 
 // Browserify
-var browserify = require('browserify');
-var vinylSourceStream = require('vinyl-source-stream');
+var browserify = require("browserify");
+var vinylSourceStream = require("vinyl-source-stream");
 
 var makeBrowserify = function(source, destination, output) {
   gulp.task(output+"-browserify", function() {
     bundler = browserify(source);
-    bundler.transform('brfs');
+    bundler.transform("brfs");
     bundle = function() {
       bundler.bundle()
       .pipe(vinylSourceStream(output+".js"))
@@ -28,4 +28,4 @@ gulp.task("watch", function() {
 });
 
 // All
-gulp.task('default', tasks);
+gulp.task("default", tasks);
