@@ -23,6 +23,7 @@ interface Int32Array {}
 
 interface Float32Array {}
 // declare var Float32Array: {};
+// 24.10.2015 : I comment these 4 lines above to prevent some errors
 
 
 /////////////////////////////
