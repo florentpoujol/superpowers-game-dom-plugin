@@ -23,7 +23,7 @@ interface Int32Array {}
 
 interface Float32Array {}
 // declare var Float32Array: {};
-// 24.10.2015 : I comment these 4 lines above to prevent some errors
+// 24.10.2015 : these 4 lines removed since Superpowers v0.13 (because of Typescript 1.6)
 
 
 /////////////////////////////
