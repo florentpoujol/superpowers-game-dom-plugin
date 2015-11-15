@@ -1,7 +1,7 @@
 {
   "name": "sup-dom-plugin",
-  "version": "0.1.5",
-  "description": "Define the DOM in Superpowers, the extensible HTML5 2D+3D game engine.",
+  "version": "0.2.0",
+  "description": "Define the DOM in the supGame system for Superpowers, the extensible HTML5 2D+3D game engine.",
   "homepage": "https://github.com/florentpoujol/superpowers-dom-plugin",
   "repository": {
     "type": "git",
@@ -18,8 +18,8 @@
     "url": "https://github.com/florentpoujol/superpowers-dom-plugin/issues"
   },
   "scripts": {
-    "linksrcdev": "mklink /j \"../../app/plugins/florentpoujol/dom\" \"./\"",
-    "linksrcrelease": "mklink /j \"../../../release/app/plugins/florentpoujol/dom\" \"./\""
+    "linkplugindev": "mklink /j \"../../app/systems/supGame/plugins/florentpoujol/dom\" \"./\"",
+    "linkpluginrelease": "mklink /j \"../../../release/app/systems/supGame/plugins/florentpoujol/dom\" \"./\""
   },
   "maintainers": [
     "Florent Poujol <florent.poujol@gmail.com>"
