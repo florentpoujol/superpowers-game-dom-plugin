@@ -11,8 +11,8 @@ It gives access to `console`, `document`, etc... from your game code and allows 
 __Advanced:__
 
 Get it via `npm`:
-		
-		cd app/systems/supGame/plugins
+
+    cd app/systems/supGame/plugins
     npm install sup-dom-plugin
 
 The name of the vendors or plugins in the `app/systems/supGame/plugins/` folder don't matter.  
