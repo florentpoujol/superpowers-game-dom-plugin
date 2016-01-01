@@ -1,6 +1,6 @@
-# Superpowers DOM plugin
+# Superpowers Game DOM plugin
 
-This plugin gives acces to DOM objects and types in the `Sup Game` system for [Superpowers, the extensible HTML5 2D+3D game engine](http://sparklinlabs.com).
+This plugin gives acces to DOM objects and types in the `Superpowers Game` system for [Superpowers, the extensible HTML5 2D+3D game engine](http://superpowers-html5.com).
 
 It gives access to `console`, `document`, etc... from your game code and allows you to use DOM types (like `HTMLElement`).
 

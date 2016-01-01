@@ -1,7 +1,7 @@
 {
   "name": "sup-dom-plugin",
-  "version": "0.2.0",
-  "description": "Define the DOM in the supGame system for Superpowers, the extensible HTML5 2D+3D game engine.",
+  "version": "0.2.1",
+  "description": "Define the DOM in the Superpowers Game system for Superpowers, the extensible HTML5 2D+3D game engine.",
   "homepage": "https://github.com/florentpoujol/superpowers-dom-plugin",
   "repository": {
     "type": "git",
