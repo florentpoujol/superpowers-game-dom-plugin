@@ -1,7 +1,6 @@
 // DOM plugin
-// https://github.com/florentpoujol/superpowers-dom-plugin
-// Gives acces to DOM objects like console or document from your game code and allows you to use DOM types (like HTMLElement).
-
+// https://github.com/florentpoujol/superpowers-game-dom-plugin
+// Exposes the DOM object and types to the Typescript API of the Superpowers Game system.
 
 // Some interfaces that are used by IE's dom definition below
 // Can be found in:
