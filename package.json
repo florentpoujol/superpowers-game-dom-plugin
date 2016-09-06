@@ -1,7 +1,7 @@
 {
   "name": "superpowers-game-dom-plugin",
-  "version": "0.3.0",
-  "description": "Exposes the DOM object and types to the Typescript API of the Superpowers Game system for Superpowers, the extensible HTML5 2D+3D game engine.",
+  "version": "0.4.0",
+  "description": "Exposes the DOM object and types to the Typescript API of the Game system for Superpowers, the extensible HTML5 2D+3D game engine.",
   "homepage": "https://github.com/florentpoujol/superpowers-game-dom-plugin",
   "repository": {
     "type": "git",
@@ -18,9 +18,7 @@
     "url": "https://github.com/florentpoujol/superpowers-game-dom-plugin/issues"
   },
   "scripts": {
-    "linkplugindev": "mklink /j \"../../app/systems/supGame/plugins/florentpoujol/dom\" \"./\"",
-    "linkpluginrelease": "mklink /j \"../../../release/app/systems/supGame/plugins/florentpoujol/dom\" \"./\"",
-    "build": "gulp --gulpfile=../../app/scripts/pluginGulpfile.js --cwd=."
+    "build": "gulp --gulpfile=../../../../../scripts/pluginGulpfile.js --cwd=."
   },
   "maintainers": [
     "Florent Poujol <florent.poujol@gmail.com>"
